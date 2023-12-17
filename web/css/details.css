@@ -1,0 +1,30 @@
+.responsive {
+    width:auto;
+    text-align:center;
+    padding:50px;
+}
+
+img {
+    max-width:100%;
+    max-height: 100%;
+}
+
+.left-side {
+    float: left;
+    width: 60%;
+}
+
+.right-side {
+    float: right;
+    width: 40%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.swiper-container {
+    width: 100%;
+}
